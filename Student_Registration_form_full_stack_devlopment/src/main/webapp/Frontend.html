@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+       body{
+           background-repeat:no-repeat;
+           background-size:100% 100%;
+           background-attachment:fixed}
+       div {height:80%;width:30%;
+            margin-left:35%;
+	        margin-top:35px;
+	        padding:3%;
+	        border:5px solid red;
+	        border-top-right-radius:30px;
+	        border-bottom-left-radius:30px;
+	        text-align:justify;
+	        background-color:white;box-shadow:5px 10px 15px red}
+        input { border-top:none;border-left:none;border-right:none}	
+		#q1 {width:200px;border-top-right-radius:30px;
+	        border-bottom-left-radius:30px;box-shadow:5px 10px 15px red;cursor:pointer}
+	    .q1:hover {background-image:linear-gradient(90deg, rgba(246,171,218,1) 50%, rgba(252,176,69,1) 100%)}
+ 
+        </style>
+</head>
+<body>
+     <div class="q1" >
+           <form style="font-size:25px" action="Backend">
+                 <label>Student Id:- </label><input type="text" placeholder="student id" name="id"><br><br>
+                 <label>Name:- </label><input type="text" placeholder="student name" name="sname"><br><br>
+                 <label>Phone number:- </label><input type="number" placeholder="Phone number" name="pno"><br><br>
+                 <label>Email id:- </label><input type="email" placeholder="Email id" name="email"><br><br>
+                 <label>Date of birth:- </label><input type="date" placeholder="Date of birth" name="dob"><br><br>
+                 <label>Gender:- </label><br><label>Male</label><input type="radio" name="g" value="Male"><label>Female</label><input type="radio" name="g" value="Female"><label>Others</label><input type="radio" name="g" Value="Others"><br><br>
+                 <label>Address:- </label><input type="text" placeholder="Address" name="address"><br><br>
+                 <label>Aadhar Number:- </label><input type="number" placeholder="Aadhar no" name="aadhar"><br><br>
+                 <label>Highest Qualification:- </label><input type="text" placeholder="Highest qualification" name="quali"><br><br>
+                 <label>Percentage of Marks:- </label><input type="number" placeholder="percentage of marks" name="marks"><br><br>
+                 <label>Password:- </label><input type="password" placeholder="password" name="pwd"><br><br>
+                 <label>Confirm password:- </label><input type="password" placeholder="Confirm password"><br><br>
+                 <input type="checkbox"><label style="font-size:15px" >Terms and conditions</label><br><br><br>
+                 <input id="q1" type="submit">
+           </form>
+     </div>
+</body>
+</html>
